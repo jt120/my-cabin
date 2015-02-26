@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cabin-core</artifactId>
+        <groupId>com.jt.cabin</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jdbc</artifactId>
+    <properties>
+        <org.springframework.version>3.1.4.RELEASE</org.springframework.version>
+        <guava.version>15.0</guava.version>
+        <org.slf4j.version>1.7.5</org.slf4j.version>
+        <logback.version>1.0.13</logback.version>
+        <org.quartz-scheduler.version>2.1.7</org.quartz-scheduler.version>
+        <org.codehaus.jackson.version>1.9.13</org.codehaus.jackson.version>
+        <com.fasterxml.jackson.version>2.3.0</com.fasterxml.jackson.version>
+        <org.mybatis.mybatis.version>3.2.3</org.mybatis.mybatis.version>
+        <org.mybatis.spring.version>1.2.1</org.mybatis.spring.version>
+        <hc.httpclient.version>4.3.1</hc.httpclient.version>
+        <hc.httpmime.version>4.3.1</hc.httpmime.version>
+        <hc.httpasyncclient.version>4.0</hc.httpasyncclient.version>
+        <hc.httpcore.version>4.3</hc.httpcore.version>
+        <hc.httpcore-nio.version>4.3</hc.httpcore-nio.version>
+    </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.jt.cabin</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+        </dependency>
+        <!--  Provided  -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.qunar.base</groupId>
+            <artifactId>meerkat-mybatis</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
